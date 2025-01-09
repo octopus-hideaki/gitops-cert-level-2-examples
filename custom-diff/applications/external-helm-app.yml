@@ -25,5 +25,6 @@ spec:
   ignoreDifferences:
     - group: ""
       kind: Secret
+      name: my-password
       jsonPointers:
       - /data
