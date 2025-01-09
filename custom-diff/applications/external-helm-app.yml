@@ -23,4 +23,6 @@ spec:
       - CreateNamespace=true  
    
 data:
-  resource.customizations.ignoreDifferences.example-secret: 
+  resource.customizations.ignoreDifferences.all:
+      jsonPointers:
+      - /data
