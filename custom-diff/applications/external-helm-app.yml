@@ -22,7 +22,3 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
-  data:
-    resource.customizations.ignoreDifferences.all:
-        jsonPointers:
-        - /data
