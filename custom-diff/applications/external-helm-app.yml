@@ -22,9 +22,5 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
-  ignoreDifferences:
-    - group: ""
-      kind: Secret
-      name: my-password
-      jsonPointers:
-      - /data
+data:
+  resource.customizations.ignoreDifferences.example-secret: 
